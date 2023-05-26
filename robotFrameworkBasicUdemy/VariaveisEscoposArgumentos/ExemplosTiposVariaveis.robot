@@ -8,7 +8,7 @@ ${SIMPLES}   Vamos ver os tipos de variáveis no robot!
 @{FRUTAS}    morango   banana   maça   uva   abacaxi
 
 #Tipo Dicionário (chave=valor) - separar cada chave=valor com espaço duplo
-&{PESSOA}    nome=May Fernandes   email=mayfernandes@exemplo.com.br   idade=28   sexo=feminino
+&{PESSOA}    nome=Diego Fernandes   email=dfgomes@exemplo.com.br   idade=37   sexo=masculino
 
 *** Test Cases ***
 Caso de teste de exemplo 01
@@ -20,7 +20,7 @@ Uma keyword qualquer 01
     Log    ${SIMPLES}
 
     # Lendo um item de uma Lista
-    Log    Essa tem que ser maça: ${FRUTAS[2]} e essa tem que ser morango: ${FRUTAS[0]}
+    Log    Essa tem que ser uva: ${FRUTAS[3]} e essa tem que ser morango: ${FRUTAS[0]}
 
     # Lendo chaves de um Dicionário
     Log    Nome: ${PESSOA.nome} e email: ${PESSOA.email}
