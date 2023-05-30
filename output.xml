@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230525 22:16:53.327" rpa="false" schemaversion="3">
+<suite id="s1" name="ValidandoDicionario" source="c:\Estudos\curso_robot\robotFrameworkBasicUdemy\VariaveisEscoposArgumentos\ValidandoDicionario.robot">
+<test id="s1-t1" name="Cenario: imprimindo os meses do ano" line="16">
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês janeiro possui: ${MESES_DO_ANO.janeiro} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.361" endtime="20230525 22:16:53.363"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês fevereiro possui: ${MESES_DO_ANO.fevereiro} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.363" endtime="20230525 22:16:53.364"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês março possui: ${MESES_DO_ANO.março} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.365" endtime="20230525 22:16:53.366"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês abril possui: ${MESES_DO_ANO.abril} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.367" endtime="20230525 22:16:53.368"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês maio possui: ${MESES_DO_ANO.maio} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.369" endtime="20230525 22:16:53.370"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês junho possui: ${MESES_DO_ANO.junho} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.371" endtime="20230525 22:16:53.372"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês julho possui: ${MESES_DO_ANO.julho} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.373" endtime="20230525 22:16:53.374"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês agosto possui: ${MESES_DO_ANO.agosto} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.375" endtime="20230525 22:16:53.378"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês setembro possui: ${MESES_DO_ANO.setembro} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.378" endtime="20230525 22:16:53.379"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês outubro possui: ${MESES_DO_ANO.outubro} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.380" endtime="20230525 22:16:53.382"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês novembro possui: ${MESES_DO_ANO.novembro} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.382" endtime="20230525 22:16:53.383"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>message=O mês dezembro possui: ${MESES_DO_ANO.dezembro} dias</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230525 22:16:53.383" endtime="20230525 22:16:53.386"/>
+</kw>
+<status status="PASS" starttime="20230525 22:16:53.361" endtime="20230525 22:16:53.386"/>
+</test>
+<status status="PASS" starttime="20230525 22:16:53.334" endtime="20230525 22:16:53.387"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="ValidandoDicionario">ValidandoDicionario</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
