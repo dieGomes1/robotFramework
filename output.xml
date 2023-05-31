@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230529 22:13:31.223" rpa="false" schemaversion="3">
-<suite id="s1" name="ValidandoArgumentos" source="c:\Estudos\curso_robot\robotFrameworkBasicUdemy\VariaveisEscoposArgumentos\ValidandoArgumentos.robot">
-<test id="s1-t1" name="Cenario 01: Criando e-mail" line="5">
-<kw name="uma keyword que cria email">
-<var>${TESTE}</var>
-<arg>diego</arg>
-<arg>gomes</arg>
-<kw name="Generate Random String" library="String">
-<var>${OUTRONOME}</var>
-<arg>length=5</arg>
-<doc>Generates a string with a desired ``length`` from the given ``chars``.</doc>
-<msg timestamp="20230529 22:13:31.271" level="INFO">${OUTRONOME} = xIv9F</msg>
-<status status="PASS" starttime="20230529 22:13:31.271" endtime="20230529 22:13:31.274"/>
-</kw>
-<msg timestamp="20230529 22:13:31.274" level="INFO">${TESTE} = diegogomesxIv9F@testerobot.com</msg>
-<status status="PASS" starttime="20230529 22:13:31.270" endtime="20230529 22:13:31.275"/>
-</kw>
+<robot generator="Robot 6.0.2 (Python 3.11.3 on win32)" generated="20230531 16:22:30.463" rpa="false" schemaversion="3">
+<suite id="s1" name="ExemploDeIf" source="c:\Estudos\curso_robot\robotFrameworkBasicUdemy\ExemplosEstruturas\ExemploDeIf.robot">
+<test id="s1-t1" name="Cenario 01" line="6">
+<if>
+<branch type="IF" condition="${STATUS} &gt; 0">
+<kw name="logando no console se for maior">
 <kw name="Log To Console" library="BuiltIn">
-<arg>${TESTE}</arg>
+<arg>variavel maior que zero</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230529 22:13:31.276" endtime="20230529 22:13:31.279"/>
+<status status="PASS" starttime="20230531 16:22:30.506" endtime="20230531 16:22:30.507"/>
 </kw>
-<status status="PASS" starttime="20230529 22:13:31.269" endtime="20230529 22:13:31.281"/>
+<status status="PASS" starttime="20230531 16:22:30.506" endtime="20230531 16:22:30.507"/>
+</kw>
+<status status="PASS" starttime="20230531 16:22:30.505" endtime="20230531 16:22:30.507"/>
+</branch>
+<branch type="ELSE">
+<kw name="logando no console se for menor">
+<status status="NOT RUN" starttime="20230531 16:22:30.508" endtime="20230531 16:22:30.508"/>
+</kw>
+<status status="NOT RUN" starttime="20230531 16:22:30.508" endtime="20230531 16:22:30.508"/>
+</branch>
+<status status="PASS" starttime="20230531 16:22:30.505" endtime="20230531 16:22:30.508"/>
+</if>
+<status status="PASS" starttime="20230531 16:22:30.504" endtime="20230531 16:22:30.509"/>
 </test>
-<status status="PASS" starttime="20230529 22:13:31.232" endtime="20230529 22:13:31.283"/>
+<status status="PASS" starttime="20230531 16:22:30.474" endtime="20230531 16:22:30.511"/>
 </suite>
 <statistics>
 <total>
@@ -32,7 +33,7 @@
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="ValidandoArgumentos">ValidandoArgumentos</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="ExemploDeIf">ExemploDeIf</stat>
 </suite>
 </statistics>
 <errors>
