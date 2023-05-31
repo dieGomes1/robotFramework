@@ -28,8 +28,9 @@ Teste de Sair do FOR
 
 *** Keywords ***
 Usando Repeat keyword
-    Log To Console  ${\n}
+    Log To Console    ${\n}---inicio---
     Repeat Keyword    8x    Log To Console    Minha repetição da keyword!!!
+    Log To Console    ---fim---${\n}
 
 Usando FOR IN RANGE
     Log To Console  ${\n}
@@ -56,5 +57,5 @@ Usando FOR IN com EXIT FOR LOOP IF
     Log To Console    ${\n}
     FOR   ${INDICE}   ${FRUTA}   IN ENUMERATE   @{MINHA_LISTA_DE_FRUTAS}
         Log To Console    Minha fruta é: ${INDICE} --> ${FRUTA}!
-        Exit For Loop If    '${FRUTA}'=='banana'
+        Exit For Loop If    '${FRUTA}'=='abacaxi'
     END
